@@ -26,8 +26,31 @@
       padding: 10px;
       text-align: center;
       border-radius: 10px;
-      width: 200px;
+      /* width: 400px; */
+      /* flex: grow shrink basis */
+      /* flex: 1 0 200px; */
+      flex: 1;
     }
+
+    .item-3 {
+      flex: 3;
+    }
+
+    /* .item-1 { */
+      /* does not go lower than set width */
+      /* flex-shrink: 0; */
+    /* } */
+    /* .item-2 { */
+      /* expands to fill empty space */
+      /* flex-grow: 1; */
+      /* sort of like setting width of item */
+      /* flex-basis: 0; */
+    /* } */
+    /* .item-3 { */
+      /* expands to fill empty space - x2 vs flex-grow 1*/
+      /* flex-grow: 2; */
+      /* flex-basis: 0; */
+    /* } */
     
   </style>
 </head>
